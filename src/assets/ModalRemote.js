@@ -249,7 +249,7 @@ function ModalRemote(modalId) {
         }
 
         if(response.forceRedirect !== undefined && response.forceRedirect) {
-            window.location.reload(response.forceRedirect);
+            window.location.href = response.forceRedirect);
         }
     }
 
